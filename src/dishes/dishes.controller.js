@@ -168,7 +168,7 @@ function list(req, res) {
 };
 
 
-//EXPORT SECTION
+//EXPORTS
 module.exports = {
   list, 
   create: [isNameValid, isDescriptionValid, isPriceValid, isUrlValid, create],

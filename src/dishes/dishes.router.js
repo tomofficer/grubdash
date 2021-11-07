@@ -1,14 +1,14 @@
+//Router
 const router = require("express").Router();
 
-//controller path
+//Path for Controller
 const controller = require("./dishes.controller");
 
-//methodnotallowed path
+//Path for methodNotAllowed
 const methodNotAllowed = require("../errors/methodNotAllowed");
 
-
 // TODO: Implement the /dishes routes needed to make the tests pass
-
+//Dishes Routes
 router
   .route("/:dishId")
   .get(controller.read)

@@ -5,4 +5,5 @@ function methodNotAllowed(request, response, next) {
   });
 }
 
+//EXPORTS
 module.exports = methodNotAllowed;
